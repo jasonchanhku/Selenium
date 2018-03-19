@@ -18,7 +18,7 @@ driver.find_element_by_css_selector('#HeroSearchButton').click()
 
 jobs_list = driver.find_elements_by_xpath('//ul[@class="jlGrid hover"]/li')
 
-# Write it in a text file
+# Write it in a text files
 
 jobs_outfile = open('jobs.txt', 'w')
 
